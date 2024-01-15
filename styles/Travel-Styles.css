@@ -21,6 +21,7 @@ body {
     border-radius: 8px;
     background: #FF5400;
     border: none;
+    font-size: 1.25rem;
 }
 
 /* Shared styles end */
@@ -65,6 +66,10 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.Contact {
+    margin-right: 0;
 }
 
 .menu-home {
@@ -149,6 +154,32 @@ body {
 
 /* banner section end */
 
+/* Our-Popular-Tours section start  */
+.Our-Popular-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.popular-title {
+    color: #131318;
+
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tours-content {
+    width: 50%;
+}
+.popular-tours-img{
+    width: 50%;
+    padding-left: 50px;
+}
+
+/* Our-Popular-Tours section end  */
+
+
 
 
 
@@ -160,6 +191,7 @@ body {
 /* Responsive section */
 /* Small devices */
 @media screen and (max-width:576px) {
+
     /* nav section */
     .nav-container {
         width: auto;
@@ -173,32 +205,55 @@ body {
 
     .menu-bar {
         flex-direction: row;
-        /* margin-left: 40px; */
-        padding-right: 20px;
     }
-/* banner section */
+
+    .menu-name {
+        margin-right: 25px;
+    }
+
+    /* banner section */
     .banner-container {
         margin: 0 auto;
-        max-width:540px;
+        max-width: 540px;
         height: 483px;
         margin: 30px auto 0;
     }
-    .banner-content{
+
+    .banner-content {
         padding-top: 10px;
     }
+
     .banner-title {
         color: #FFF;
         font-size: 1.34rem;
         font-weight: 800;
     }
-    .banner-paragraph{
+
+    .banner-paragraph {
         margin: 8px;
         padding-top: 0px;
     }
-    
+
     .banner-button-container {
         flex-direction: column;
         margin-top: 10px;
+    }
+    /* Our-Popular-container section */
+    .Our-Popular-container{
+        flex-direction: column;
+        text-wrap: nowrap;
+        margin: 0 auto;
+        padding:0 10px;
+    }
+    .popular-tours-content {
+        width: 100%;
+
+    }
+    .popular-tours-img{
+        margin-top: 10px;
+        width:100%;
+        position: relative;
+        right:50px;  
     }
 
 }
