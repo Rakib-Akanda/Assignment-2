@@ -1,14 +1,12 @@
 /* Shared styles start */
 body {
     font-family: "Mulish", sans-serif;
-    /* max-width: 1170px;
-    margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .paragraph-styles {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    /* font-size: 18px; */
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 26px
 }
@@ -34,9 +32,11 @@ body {
 /* Shared styles end */
 
 /* Nav section start*/
-.nav-container {
+.head-content{
     max-width: 1170px;
     margin: 0 auto;
+}
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,7 +183,8 @@ body {
 /* Destinations-section start */
 .Destinations-container {
     width: 1170px;
-    margin: 80px auto 0;
+    /* margin: 80px auto 0; */
+    margin: 0 auto;
 }
 
 .Destination-title {
@@ -209,7 +210,7 @@ body {
     position: absolute;
     bottom: 50%;
     left: 40%;
-    top: 25%; 
+    top: 25%;
 
 }
 
@@ -229,12 +230,81 @@ body {
 }
 
 .place-name {
-    color: #FFF; 
+    color: #FFF;
     font-size: 28px;
     font-weight: 800;
 }
 
 /* Destinations-section end */
+
+/* Why Choose Us section styles start */
+.choose-us-container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.choose-us-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.choose-title {
+    margin: 0 0;
+}
+
+.choose-title-1 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.card-container-1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.choose-us-card {
+    width: 573px;
+    height: 250px;
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+
+}
+
+#background-color-dif {
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.last-card-container {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.choose-us-card-2{
+    width: 573px;
+    height: 250px;
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+}
+
+/* Why Choose Us section styles end */
 
 
 
@@ -250,9 +320,10 @@ body {
 
     /* nav section */
     .nav-container {
-        width: auto;
+        width:540px;
+        margin: 0 auto;
         flex-direction: column;
-        margin-top: 0;
+        text-align: center;
     }
 
     .webName {
@@ -269,14 +340,15 @@ body {
 
     /* banner section */
     .banner-container {
-        margin: 0 auto;
         max-width: 540px;
+        margin: 0 auto;
         height: 483px;
         margin: 30px auto 0;
     }
 
     .banner-content {
-        padding-top: 10px;
+        padding-top: 1px;
+        margin: 0;
     }
 
     .banner-title {
@@ -297,6 +369,7 @@ body {
 
     /* Our-Popular-container section */
     .Our-Popular-container {
+        max-width: 550px;
         flex-direction: column;
         text-wrap: nowrap;
         margin: 0 auto;
@@ -304,7 +377,8 @@ body {
     }
 
     .popular-tours-content {
-        width: 100%;
+        width:520px;
+        padding: 10px;
 
     }
 
@@ -312,41 +386,86 @@ body {
         margin-top: 10px;
         width: 100%;
         position: relative;
-        right: 50px;
+        right: 45px;
     }
-/* Destinations-section start */
-    .Destinations-container{
+
+    /* Destinations-section start */
+    .Destinations-container {
         max-width: 540px;
-        padding-right: 20px;
-        
     }
-    .Destination-content{
+
+    .Destination-content {
         width: 500px;
         height: 100%;
         margin: 0 auto;
+    }
 
-    }
-    .photo-container-1,.photo-container-2>div,.photo-container-3{
+    .photo-container-1,
+    .photo-container-2>div,
+    .photo-container-3 {
         flex-direction: column;
-        display: grid;
     }
-    .Destination-title{
-        font-size:1.5rem;
+
+    .Destination-title {
+        font-size: 1.5rem;
+        margin-left: 120px;
     }
+
     .common-title {
         color: #131318;
-        font-size:1.5rem;
+        font-size: 1.5rem;
         font-weight: 800;
     }
-    .img-size-res{
-        width: 560px;
+
+    .img-size-res {
+        width: 540px;
         height: 100%;
-        margin: 0 auto;
-        
     }
-    .gap20{
+    .Destinations-photo-container{
+        margin:0 auto;
+    }
+
+    .gap20 {
         gap: 15px;
     }
 /* Destinations-section end */
+
+/* Why Choose Us section start */
+    .choose-us-container{
+        width: 540px;
+        margin: 0 auto;
+    }
+    .card-container-1{
+        flex-direction: column;
+    }
+    .common-title{
+        text-align:left;
+    }
+    .choose-title-1{
+        width: 400px;
+    }
+    .choose-us-card-2{
+        position: absolute;
+        right:5px;
+        left: 8px;
+        width: 540px;
+        margin: 0 auto;
+    }
+    /* right place */
+    .card-content {
+        width: 510px;
+        padding: 15px;
+    }
+    .choose-us-card{
+        width: 540px;
+    }
+    .hotel-card1{
+        padding: 0;
+    }
+    .card-title{
+        margin: 0;
+    }
+
+/* Why Choose Us section end */
 
 }
