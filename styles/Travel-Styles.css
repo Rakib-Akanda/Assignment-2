@@ -32,10 +32,11 @@ body {
 /* Shared styles end */
 
 /* Nav section start*/
-.head-content{
+.head-content {
     max-width: 1170px;
     margin: 0 auto;
 }
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -297,7 +298,8 @@ body {
     margin-left: 25%;
     margin-top: 20px;
 }
-.choose-us-card-2{
+
+.choose-us-card-2 {
     width: 573px;
     height: 250px;
     background: rgba(251, 181, 99, 0.05);
@@ -305,6 +307,87 @@ body {
 }
 
 /* Why Choose Us section styles end */
+
+/* Deals & Discounts section start */
+.Deals-container {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+
+.discounts-text-content {
+    text-align: center;
+}
+
+.deals-banner {
+    margin-top: 40px;
+}
+
+.deals-img-1 {
+    position: relative;
+}
+
+.deals-card-1 {
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+    top: 12%;
+    right: 2%;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.deals-card-2 {
+    position: absolute;
+    bottom: 40%;
+    left: 5%;
+    top: 12%;
+    right: 45%;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.price-1 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.deals-banner-content{
+    padding: 20px 0 0px 50px;
+}
+.list-for-deals{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    padding-left: 0;
+}
+#deals-gap-1{
+    margin-top: 10px;
+}
+.deals-btn-last{
+    text-align: center;
+    margin-top: 20px;
+}
+/* Deals & Discounts section end */
+.Simple-Perfect-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    gap: 34px;
+}
+.popular-perfect-content{
+    position: relative;
+    bottom: 50px;
+}
 
 
 
@@ -318,9 +401,17 @@ body {
 /* Small devices */
 @media screen and (max-width:576px) {
 
+    /* shared style  */
+    .title-0 {
+        color: #131318;
+        font-size: 1.25rem;
+        font-weight: 800;
+
+    }
+
     /* nav section */
     .nav-container {
-        width:540px;
+        width: 540px;
         margin: 0 auto;
         flex-direction: column;
         text-align: center;
@@ -377,7 +468,7 @@ body {
     }
 
     .popular-tours-content {
-        width:520px;
+        width: 520px;
         padding: 10px;
 
     }
@@ -421,51 +512,127 @@ body {
         width: 540px;
         height: 100%;
     }
-    .Destinations-photo-container{
-        margin:0 auto;
+
+    .Destinations-photo-container {
+        margin: 0 auto;
     }
 
     .gap20 {
         gap: 15px;
     }
-/* Destinations-section end */
 
-/* Why Choose Us section start */
-    .choose-us-container{
+    /* Destinations-section end */
+
+    /* Why Choose Us section start */
+    .choose-us-container {
         width: 540px;
         margin: 0 auto;
     }
-    .card-container-1{
+
+    .card-container-1 {
         flex-direction: column;
     }
-    .common-title{
-        text-align:left;
+
+    .common-title {
+        text-align: left;
     }
-    .choose-title-1{
+
+    .choose-title-1 {
         width: 400px;
     }
-    .choose-us-card-2{
+
+    .choose-us-card-2 {
         position: absolute;
-        right:5px;
+        right: 5px;
         left: 8px;
         width: 540px;
         margin: 0 auto;
     }
+
     /* right place */
     .card-content {
         width: 510px;
         padding: 15px;
     }
-    .choose-us-card{
+
+    .choose-us-card {
         width: 540px;
     }
-    .hotel-card1{
+
+    .hotel-card1 {
         padding: 0;
     }
-    .card-title{
+
+    .card-title {
         margin: 0;
     }
 
-/* Why Choose Us section end */
+    /* Why Choose Us section end */
 
+    /* deals and discounts section :start */
+    .Deals-container {
+        width: 540px;
+        margin: 300px auto 0;
+        flex-direction: column;
+    }
+
+    .discounts-text-content {
+        text-align: left;
+        flex-direction: column;
+    }
+    .deals-respons{
+        width: 540px;
+        height: 560px;
+        /* height: 100%; */
+    }
+    .price-1{
+        margin: 10px 0 0 0;
+    }
+    .deals-card-1, .deals-card-2nd{
+        position: absolute;
+        bottom: 2%;
+        left: 3%;
+        top: 30%;
+        right: 10%;
+        width: 500px;
+        height: 350px;
+
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(1.5px);
+    }
+    .deals-banner-content{
+        padding: 10px;
+    }
+    .deals-btn{
+        margin-top: 40px;
+    }
+    .deals-btn-last{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    /* deals and discounts section end */
+    .Simple-Perfect-container{
+        max-width: 540px;
+        flex-direction: column;
+        text-wrap: nowrap;
+        margin: 0 auto;
+        padding: 0 10px;
+        gap: 15px;
+    }
+    .popular-perfect-content{
+            position: relative;
+            top: 50px;
+    }
+    .perfect-img{
+        position: relative;
+        top: 60px;
+    }
+    .popular-tours-img-1{
+        width: 535px;
+        margin: 0 auto;
+
+    }
 }
