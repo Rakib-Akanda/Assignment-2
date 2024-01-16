@@ -24,6 +24,13 @@ body {
     font-size: 1.25rem;
 }
 
+.common-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
 /* Shared styles end */
 
 /* Nav section start*/
@@ -64,7 +71,7 @@ body {
     text-decoration: none;
     color: #424247;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.123rem;
     font-weight: 400;
 }
 
@@ -162,23 +169,72 @@ body {
     margin-top: 100px;
 }
 
-.popular-title {
-    color: #131318;
-
-    font-size: 40px;
-    font-weight: 800;
-}
 
 .popular-tours-content {
     width: 50%;
 }
-.popular-tours-img{
+
+.popular-tours-img {
     width: 50%;
     padding-left: 50px;
 }
 
 /* Our-Popular-Tours section end  */
+/* Destinations-section start */
+.Destinations-container {
+    width: 1170px;
+    margin: 80px auto 0;
+}
 
+.Destination-title {
+    margin-bottom: 20px;
+}
+
+.Destination-content {
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.photo-container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Maldives-photo {
+    position: relative;
+
+}
+
+.place-name-1 {
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    top: 25%; 
+
+}
+
+.photo-container-2 {
+    margin-top: 15px;
+}
+
+.photo-container-2>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-container-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.place-name {
+    color: #FFF; 
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* Destinations-section end */
 
 
 
@@ -238,22 +294,59 @@ body {
         flex-direction: column;
         margin-top: 10px;
     }
+
     /* Our-Popular-container section */
-    .Our-Popular-container{
+    .Our-Popular-container {
         flex-direction: column;
         text-wrap: nowrap;
         margin: 0 auto;
-        padding:0 10px;
+        padding: 0 10px;
     }
+
     .popular-tours-content {
         width: 100%;
 
     }
-    .popular-tours-img{
+
+    .popular-tours-img {
         margin-top: 10px;
-        width:100%;
+        width: 100%;
         position: relative;
-        right:50px;  
+        right: 50px;
     }
+/* Destinations-section start */
+    .Destinations-container{
+        max-width: 540px;
+        padding-right: 20px;
+        
+    }
+    .Destination-content{
+        width: 500px;
+        height: 100%;
+        margin: 0 auto;
+
+    }
+    .photo-container-1,.photo-container-2>div,.photo-container-3{
+        flex-direction: column;
+        display: grid;
+    }
+    .Destination-title{
+        font-size:1.5rem;
+    }
+    .common-title {
+        color: #131318;
+        font-size:1.5rem;
+        font-weight: 800;
+    }
+    .img-size-res{
+        width: 560px;
+        height: 100%;
+        margin: 0 auto;
+        
+    }
+    .gap20{
+        gap: 15px;
+    }
+/* Destinations-section end */
 
 }
