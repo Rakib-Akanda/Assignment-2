@@ -164,9 +164,6 @@ body {
     margin-top: 100px;
 }
 
-.title-0 {
-    margin-top: 0;
-}
 
 .read-more-btn {
     margin-top: 15px;
@@ -180,6 +177,7 @@ body {
     width: 50%;
     padding-left: 50px;
 }
+
 /* Our-Popular-Tours section end  */
 /* Destinations-section start */
 .Destinations-container {
@@ -388,6 +386,7 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
     gap: 34px;
 }
@@ -764,13 +763,17 @@ body {
     }
 
     .popular-perfect-content {
-        position: relative;
+        /* position: relative; */
         top: 50px;
     }
 
     .perfect-img {
-        position: relative;
-        top: 60px;
+        /* position: relative; */
+        /* top: 60px; */
+        width: 540px;
+        height: 100%;
+        padding-left: 15px;
+        margin: 60px auto 0;
     }
 
     .popular-tours-img-1 {
