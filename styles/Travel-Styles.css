@@ -34,7 +34,7 @@ body {
 /* Nav section start*/
 .head-content {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 0px auto 0;
 }
 
 .nav-container {
@@ -43,18 +43,12 @@ body {
     align-items: center;
 }
 
-.webName {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-
-}
-
 .click-name {
     color: #424247;
-    text-align: center;
+    /* text-align: center; */
     font-size: 2.25rem;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .nav-travel {
@@ -341,6 +335,7 @@ body {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 }
+
 .deals-card-2 {
     position: absolute;
     bottom: 40%;
@@ -360,37 +355,111 @@ body {
     font-size: 20px;
     font-weight: 800;
 }
-.deals-banner-content{
+
+.deals-banner-content {
     padding: 20px 0 0px 50px;
 }
-.list-for-deals{
+
+.list-for-deals {
     display: flex;
     list-style: none;
-    gap:30px;
+    gap: 30px;
     padding-left: 0;
 }
-#deals-gap-1{
+
+#deals-gap-1 {
     margin-top: 10px;
 }
-.deals-btn-last{
+
+.deals-btn-last {
     text-align: center;
     margin-top: 20px;
 }
+
 /* Deals & Discounts section end */
-.Simple-Perfect-container{
+.Simple-Perfect-container {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
     margin-top: 100px;
     gap: 34px;
 }
-.popular-perfect-content{
+
+.popular-perfect-content {
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
 }
 
+.simple-btn {
+    margin: 30px;
+}
 
+/* footer section start */
+.footer-container {
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 40px;
+}
 
+.footer-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.paragraph-styles {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.logo-style {
+    color: #424247;
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot-paragraph {
+    text-align: center;
+}
+
+.logo-40 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-icon {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-icon>a>i {
+    color: #424247;
+}
+
+.hr-footer {
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.footer-copyright {
+    width: 500px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+/* footer section end */
 
 
 
@@ -580,15 +649,19 @@ body {
         text-align: left;
         flex-direction: column;
     }
-    .deals-respons{
+
+    .deals-respons {
         width: 540px;
         height: 560px;
         /* height: 100%; */
     }
-    .price-1{
+
+    .price-1 {
         margin: 10px 0 0 0;
     }
-    .deals-card-1, .deals-card-2nd{
+
+    .deals-card-1,
+    .deals-card-2nd {
         position: absolute;
         bottom: 2%;
         left: 3%;
@@ -602,19 +675,22 @@ body {
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(1.5px);
     }
-    .deals-banner-content{
+
+    .deals-banner-content {
         padding: 10px;
     }
-    .deals-btn{
+
+    .deals-btn {
         margin-top: 40px;
     }
-    .deals-btn-last{
+
+    .deals-btn-last {
         text-align: center;
         margin-top: 20px;
     }
-    
+
     /* deals and discounts section end */
-    .Simple-Perfect-container{
+    .Simple-Perfect-container {
         max-width: 540px;
         flex-direction: column;
         text-wrap: nowrap;
@@ -622,17 +698,35 @@ body {
         padding: 0 10px;
         gap: 15px;
     }
-    .popular-perfect-content{
-            position: relative;
-            top: 50px;
+
+    .popular-perfect-content {
+        position: relative;
+        top: 50px;
     }
-    .perfect-img{
+
+    .perfect-img {
         position: relative;
         top: 60px;
     }
-    .popular-tours-img-1{
+
+    .popular-tours-img-1 {
         width: 535px;
         margin: 0 auto;
 
     }
+
+    /* footer section Start*/
+    .footer-container {
+        width: 100%;
+        background: rgba(19, 19, 24, 0.05);
+        margin-top: 100px;
+    }
+
+
+    .hr-footer {
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    /* footer section end*/
 }
