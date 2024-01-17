@@ -164,6 +164,13 @@ body {
     margin-top: 100px;
 }
 
+.title-0 {
+    margin-top: 0;
+}
+
+.read-more-btn {
+    margin-top: 15px;
+}
 
 .popular-tours-content {
     width: 50%;
@@ -173,7 +180,6 @@ body {
     width: 50%;
     padding-left: 50px;
 }
-
 /* Our-Popular-Tours section end  */
 /* Destinations-section start */
 .Destinations-container {
@@ -194,6 +200,7 @@ body {
 .photo-container-1 {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .Maldives-photo {
@@ -421,27 +428,34 @@ body {
     font-size: 1.1rem;
     padding-left: 5px;
 }
-.news-margin{
+
+.news-margin {
     margin: 15px auto 15px;
 }
-.news-title{
+
+.news-title {
     margin: 0;
 }
-#news-para{
+
+#news-para {
     width: 370px;
 }
-.hr-news{
+
+.hr-news {
     background: rgba(19, 19, 24, 0.10);
     margin-top: 8px;
 }
-.news-btn{
+
+.news-btn {
     width: 416px;
     margin-top: 40px;
     padding: 0;
 }
-.news-img-1{
+
+.news-img-1 {
     width: 654.4px;
 }
+
 /* newsletter section end */
 
 /* footer section start */
@@ -582,7 +596,7 @@ body {
         max-width: 550px;
         flex-direction: column;
         text-wrap: nowrap;
-        margin: 0 auto;
+        margin: 80px auto 0;
         padding: 0 10px;
     }
 
@@ -764,6 +778,7 @@ body {
         margin: 0 auto;
 
     }
+
     /* newsletter section start */
     .newsletter-container {
         width: 540px;
@@ -771,6 +786,7 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+
     .news-text-content {
         width: 414px;
         border-radius: 16px;
@@ -778,10 +794,12 @@ body {
         padding: 40px;
         margin: 80px auto 0;
     }
-    .news-img-1{
+
+    .news-img-1 {
         width: 540px;
         margin: 0 auto;
     }
+
     /* newsletter section end */
 
     /* footer section Start*/
